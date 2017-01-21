@@ -12,7 +12,7 @@ lang="fr">
 </head>
 <body>
 <div id="conte1">
-<h2 id="bo">bonjour</h2>
+<h2 id="bo">bonjour1</h2>
 <script>
 var d=new Date();
 
