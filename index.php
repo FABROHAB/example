@@ -8,7 +8,7 @@ lang="fr">
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
  <title> Demonstration</title>
  <link href="fab.css" rel="stylesheet" type="text/css" media="screen"/>
-  <title>Mon site</title>
+ 
 </head>
 <body>
 <div id="conte1">
