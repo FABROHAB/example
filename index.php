@@ -27,47 +27,10 @@ lang="fr">
  
 </head>
 <body>
-<div id="conte1">
-<h2 id="bo">bonjour1</h2>
-<script>
-var d=new Date();
-
-var dt=d.getHours();
-if(dt>12)
-var tx=document.getElementById('bo').innerHTML=('BON APRE MIDI');
-</script>
-
-</div>
-
-<div id="menu">
-<ul>
-<li><a href="demo.php">Acceuil</a></li>
-<li><a href="histo.php">Historique</a></li>
-<li><a href="dive.php">Divers</a></li>
-<li><a href="compte.php">creer votre compte</a></li>
-<li><a href="contact.php">Nos contacts</a></li>
-</ul>
-
-</div>
-
-<div id="conte2">
-
-</div>
-<div id="conteneur">
-
-<script>
-var get =document.querySelector('p a');
-var a =document.querySelectorAll('.hab');
-var r=document.getElementById('site').style.color='white';
-var r1=document.getElementById('site').style.fontSize='25px';
-alert('Information dans le lien :'+get+'\nDans a'+a[0].innerHTML+'\nDans a'+a[1].innerHTML);
-
-</script>
-
-</div>
-
-<div id="bas">
-
+<dir id=content>
+<?php
+include($content);
+?>
 </div>
 </body>
 
