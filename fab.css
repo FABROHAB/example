@@ -49,23 +49,3 @@ width:200px;
 margin:5px;
 }
 
-
-#content form input[type=submit]
-{
-width=100px;
-background-color:green;
-color:#FFF;
-cursor:pointer;
-}
-#content.error
-{
-color:red;
-border-radius: 5px;
--webkit-border-raduis:5px;
--moz-border-radius:5px;
-margin: 2px auto;
-width:300px;
-background-color:#CCC;
-
-
-}
