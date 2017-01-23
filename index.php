@@ -1,3 +1,19 @@
+<?php
+$page=htmlentities($_GET['page']);
+$pages=scandir('pages');
+
+
+
+
+
+if(!empty($page)&&in_array($_GET['page'].".php",$pages))
+{
+$content='pages/'.$_GET['page'].".php";
+}else{
+header("Location:index.php?page=login");
+
+}
+?>
 <?xml version="1.0" encoding="UTF-83?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
